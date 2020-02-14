@@ -1,0 +1,58 @@
+html {
+    background: rgb(199, 6, 6);
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    position:relative;
+    background: grey;
+  }
+  figcaption {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  a>h1 {
+      margin: 0px;
+      color: steelblue;
+      margin-left: 50px;
+      font-size: xx-large;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  header>h1 {
+    font-size: 48px;
+    color:steelblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  a>h1 {
+    color: red;
+    margin-left: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+    div>h3 {
+        color: steelblue;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+div>p {
+    text-align: center;
+}
+
+header>h2 {
+  font-size: 28px;
+  color:steelblue;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
