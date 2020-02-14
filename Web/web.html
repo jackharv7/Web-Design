@@ -61,7 +61,7 @@
                 <figure>
                 <img class="figure-img img-fluid" src="Geo-Map.png" alt="Map">
                 <figcaption class="figure-caption">&nbsp &nbsp &nbsp &nbsp This project is meant to visualize a weather analysis results performed in a previous<a href="https://github.com/jackharv7/Python-API"> project</a> in which I gathered the current weather from all over 
-                    the world. 500 cities were selected from a list of latitude and longitude coordinates that were randomly discovered using the numpy library. Queried the weather data from OpenWeatherMap API, plotted the data and drew conclusions on the dependence of weather in relation to the latitudinal coordinate. Here we presented the results in a web visualization dashboard. 
+                    the world. 500 cities were selected from a list of latitude and longitude coordinates that were randomly discovered using the numpy library. Queried the weather data from OpenWeatherMap API(Max Temperature, Wind Speed, Cloudiness, and Humidity), plotted the data and drew conclusions on the dependence of weather in relation to the latitudinal coordinate. Here we presented the results in a web visualization dashboard. 
                     This is a user-friendly way to access the results presented in the <a href="https://github.com/jackharv7/Python-API"> Weather project</a>. Once this information is found the user can identify specific weather statistics to determine a location that meets their requirements. 
                     The locations are identified on a map and the closest hotel in the city is marked.</figcaption>
             </figure>
@@ -72,51 +72,56 @@
       
         <div class="col-md-3">
         
-        <main class="container">
+        <section class="container-fluid border">
             <header>
                 <h2>Visualizations</h2>
-                <hr class="my-4">
+                <hr class="my-2">
             </header>
 
         <div class="row">
             <div class="col-xs-3 col-sm-3 col-md-6">
-                <figure id="main_figure">
+                <figure>
                 <a href="./Temperature.html">
-                    <img src="./Resources/assets/images/Fig1.png" alt="latitude_Max-Temperature" style="width:150px;height:150px;">
+                    <img class="img-thumbnail" src="./Resources/assets/images/Fig1.png" alt="latitude_Max-Temperature">
                 </a>
                 </figure>
     
             </div>
             <div class="col-xs-3 col-sm-3 col-md-6">
-                <figure id="main_figure">
+                <figure>
                     <a href="./Cloudiness.html">
-                    <img   src="./Resources/assets/images/Fig3.png" alt="latitude_Cloudiness" style="width:150px;height:150px;">
+                    <img class="img-thumbnail" src="./Resources/assets/images/Fig3.png" alt="latitude_Cloudiness">
                     </a>
                 </figure>
             </div>
 
             <div class="col-xs-3 col-sm-3 col-md-6">
-                <figure id="main_figure">
+                <figure>
                     <a href="./Humidity.html">
-                    <img   src="./Resources/assets/images/Fig2.png" alt="latitude_humidity" style="width:150px;height:150px;">
+                    <img class="img-thumbnail" src="./Resources/assets/images/Fig2.png" alt="latitude_humidity">
                     </a>  
                 </figure>
             </div>
             <div class="col-xs-3 col-sm-3 col-md-6">
-                <figure id="main_figure">
+                <figure>
                     <a href="./WindSpeed.html">
-                    <img  src="./Resources/assets/images/Fig4.png" alt="latitude_wind-speed" style="width:150px;height:150px;">
+                    <img class="img-thumbnail" src="./Resources/assets/images/Fig4.png" alt="latitude_wind-speed">
                     </a>  
                 </figure>
             </div>
         </div>
-        <hr class="my-4">
-        </main>
-           
+        </section>           
             
         </div>
     </div>
 
 </body>
+
+<footer class="page-footer font-small" style="background-color: grey">
+    
+    <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2020</div>
+
+</footer>
+
 </html>
 

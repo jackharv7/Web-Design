@@ -14,6 +14,7 @@ body {
   }
   p {
     font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
   }
 
   a>h1 {
@@ -29,6 +30,9 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+  table {
+    text-align: center;
+  }
 
   a>h1 {
     color: red;
@@ -37,9 +41,9 @@ body {
   }
   
     div>h3 {
-        color: steelblue;
-        text-align: center;
-        font-family: Georgia, "Times New Roman", Times, serif;
+      color: steelblue;
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
     }
 
 div>p {
@@ -47,9 +51,9 @@ div>p {
 }
 
 header>h2 {
-  font-size: 28px;
   color:steelblue;
   text-align: center;
+  font-size:2vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
