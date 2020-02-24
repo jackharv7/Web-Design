@@ -1,7 +1,5 @@
 # Web Visualization Dashboard
 
-![](Web/Resources/Screen Shot 2020-02-24 at 2.13.05 PM.png)
-
 * A [landing page](#landing-page) containing:
 
 * Four [visualization pages](#visualization-pages), each with:
